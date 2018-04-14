@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      LISTADO DE PRODUCTOS
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="goRegistrar()">
+        <ion-icon name="add"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list inset>
+    <button ion-item *ngFor="let item of listado" (click)="itemSelected(item)">
+      {{ item.pro_descripcion | uppercase }}
+    </button>
+  </ion-list>
+</ion-content>

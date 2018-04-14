@@ -1,2 +1,1 @@
-# ionic-crud-mysql-php
-Codigo de un proyecto CRUD con IONIC, PHP y Mysql
+### :point_right: This starter repo has moved to the [ionic-team/starters](https://github.com/ionic-team/starters/tree/master/ionic-angular/official/blank) repo! :point_left:

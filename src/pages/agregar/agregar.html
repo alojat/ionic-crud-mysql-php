@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>AGREGAR PRODUCTO</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <form (ngSubmit)="guardarProducto()">
+    <ion-list>
+      <ion-item>
+        <ion-label floating>Nombre:</ion-label>
+        <ion-input type="text" name="nombre" [(ngModel)]="item.nombre"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label floating>Marca:</ion-label>
+        <ion-input type="text" name="marca" [(ngModel)]="item.marca"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label floating>Precio:</ion-label>
+        <ion-input type="number" name="precio" [(ngModel)]="item.precio"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label floating>Observaciones:</ion-label>
+        <ion-input type="text" name="observaciones" [(ngModel)]="item.observaciones"></ion-input>
+      </ion-item>
+
+      <ion-item>
+          <button ion-button color="secondary">Secondary</button>
+      </ion-item>
+
+    </ion-list>
+  </form>
+</ion-content>
