@@ -1,1 +1,6 @@
-### :point_right: This starter repo has moved to the [ionic-team/starters](https://github.com/ionic-team/starters/tree/master/ionic-angular/official/blank) repo! :point_left:
+Proyecto CRUD con IONIC, Mysql y PHP.
+
+Para compilar solo instalar las dependencias y correr el servidor ionic.
+
+@lojat!
+www.alojat.com
